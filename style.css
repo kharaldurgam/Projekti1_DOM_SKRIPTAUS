@@ -31,7 +31,6 @@ h1 {
     font-size: 28px;
 }
 
-/* Form Styles */
 #todo-form {
     margin-bottom: 20px;
 }
@@ -55,7 +54,6 @@ h1 {
     border-color: #4a90e2;
 }
 
-/* Error state class */
 #todo-input.error {
     border-color: #e74c3c;
     background-color: #fdf2f2;
@@ -77,7 +75,6 @@ h1 {
     background-color: #357abd;
 }
 
-/* To Do List Items */
 #todo-list {
     list-style: none;
     margin-bottom: 24px;
