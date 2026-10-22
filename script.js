@@ -26,6 +26,7 @@ submitBtn.addEventListener('click', (e) => {
         input.value = ''; 
     
         if (errormsg) {
+        errormsg.textContent='';
         }
         input.classList.remove('error');
     } else {
