@@ -63,3 +63,28 @@ Projekti1_DOM_SKRIPTAUS/
 Github-repositorio: https://github.com/kharaldurgam/Projekti1_DOM_SKRIPTAUS
 
 Julkaistu sovellus: https://kharaldurgam.github.io/Projekti1_DOM_SKRIPTAUS/
+
+Tekoälyä käytetään suodatintoiminnon toteuttamiseen.
+```text
+// Filter buttons 
+filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        const filter = btn.getAttribute('data-filter');
+        const items = todoList.querySelectorAll('.todo-item');
+
+        items.forEach(item => {
+            const isCompleted = item.classList.contains('completed');
+            if (filter === 'all') {
+                item.style.display = 'flex';
+            } else if (filter === 'active') {
+                item.style.display = isCompleted ? 'none' : 'flex';
+            } else if (filter === 'completed') {
+                item.style.display = isCompleted ? 'flex' : 'none';
+            }
+        });
+    });
+});
+```
