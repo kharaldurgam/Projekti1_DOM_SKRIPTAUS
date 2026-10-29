@@ -51,10 +51,14 @@ The app includes:
 5. Delete tasks when they are no longer needed.
 
 ## Project Structure
-```text
 Projekti1_DOM_SKRIPTAUS/
 ├── index.html
 ├── style.css
 ├── script.js
 ├── README.md
 ├── LICENSE
+
+#Linkit
+Github-repositorio: https://github.com/kharaldurgam/Projekti1_DOM_SKRIPTAUS
+
+Julkaistu sovellus: https://kharaldurgam.github.io/Projekti1_DOM_SKRIPTAUS/
