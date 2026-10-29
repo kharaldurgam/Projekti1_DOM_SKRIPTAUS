@@ -43,7 +43,6 @@ The app includes:
 
 
 ## Usage
-
 1. Open the app in a browser.
 2. Type a task in the input field.
 3. Click the add button.
@@ -51,13 +50,15 @@ The app includes:
 5. Delete tasks when they are no longer needed.
 
 ## Project Structure
+```text
+
 Projekti1_DOM_SKRIPTAUS/
 ├── index.html
 ├── style.css
 ├── script.js
 ├── README.md
 ├── LICENSE
-
+```
 #Linkit
 Github-repositorio: https://github.com/kharaldurgam/Projekti1_DOM_SKRIPTAUS
 
